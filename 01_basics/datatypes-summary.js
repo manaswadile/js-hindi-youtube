@@ -32,4 +32,33 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof heros);
+console.log(typeof id);
+
+
+
+// +++++++++++++++++++++++++++++++++ //
+
+// Types of memory : 
+
+// Stack (used in Primitive) 
+// Heap (used in Non-Primitive)
+
+let myYoutubename = "manaswadile"
+
+let anothername = myYoutubename
+anothername = "paniaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ptm"
+}
+
+let userTwo = userOne
+
+userTwo.email = "manas@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
