@@ -9,8 +9,9 @@
 
 
 // "33" => 33
-// "33abc" => NaN
+// "33abc" => NaN  // but its type is "number"
 // true => 1; false => 0
+// undifined => NaN
 
 // let isLoggedIn = "manas"
 
