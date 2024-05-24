@@ -6,7 +6,7 @@
 // let valueInNumber = Number(score)
 // console.log(typeof (valueInNumber));
 // console.log(valueInNumber);
-
+    
 
 // "33" => 33
 // "33abc" => NaN  // but its type is "number"
@@ -40,7 +40,7 @@ let negValue = -value
 // console.log(2*7);
 // console.log(2**3);
 // console.log(2/4);
-// console.log(15%2);   =>   // here % shows remainder in division
+// console.log(2%3);   =>   // here % shows remainder in division
 
 let str1 = "hello"
 let str2 = " manas"

@@ -4,12 +4,13 @@
 // console.log(2 != 1);
 // console.log(2 == 1);
 
-console.log("2" > 1);
-console.log("02" > 1);
+// console.log("2" > 1);
+// console.log("02" > 1);
 
 
-//  ***************** Avoid this ****************** //
+//  ************ Avoid this type of comparision ************ //
 
+// console.log(null > 0);
 // console.log(null < 0);
 // console.log(null == 0);
 // console.log(null >= 0);
@@ -22,6 +23,6 @@ console.log("02" > 1);
 // ************ ***************** ****************** ***********//
 
 
-// === 
+// (===)  here value and type should be same 
 
-console.log("2" === 2);
+// console.log("2" === 2);
