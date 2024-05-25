@@ -40,8 +40,8 @@ const myFunction = function(){
 
 // Types of memory : 
 
-// Stack (used in Primitive)   
-// Heap (used in Non-Primitive)
+// Stack (used in Primitive) => changes are done in copy of orignal value
+// Heap (used in Non-Primitive) => changes are done in orignal value
 
 let myYoutubename = "manaswadile"
 
