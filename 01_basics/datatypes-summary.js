@@ -1,3 +1,13 @@
+// return types of primitive datatypes
+
+// Number => number
+// String => string 
+// Boolean => boolean
+// Null  => object
+// BigInt => bidint
+// Undefined => undefined
+// Symbol => symbol
+
 //  primitive datatypes (7 types)
 
 // String, Number, Boolean, null, undefined, Symbol, BigInt
@@ -15,6 +25,14 @@
 // console.log(id == anotherId);
 
 // const bigNumber = 45889646454111346554n
+
+//========================================================//
+
+// return types of non pirmitive datatypes
+
+// Array => object
+// Function => function
+// Object => object
 
 
 // Reference (Non primitive)
