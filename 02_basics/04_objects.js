@@ -1,5 +1,4 @@
-// const tinderUser = new Object() //singleton object
-
+ 
 const tinderUser = {} // Non singleton object
 
 tinderUser.id = "123abc"
@@ -48,10 +47,41 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); 
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); 
+
+//=================================//
+// destructoring
+
+const course = { 
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "manas"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// API
+
+// {
+//     "name": "manas"
+//     "coursename": "js in hindi"
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
