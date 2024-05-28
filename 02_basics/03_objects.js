@@ -1,10 +1,10 @@
 // singleton
 // literals => no singleton
 // construtor => singleton
+//Object.create   // this is construtor mthd
 
 //=======================================
 // Object literals
-//Object.create   // this is construtor mthd
 
 const mySym = Symbol("key1")
 
@@ -19,8 +19,8 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 
-// console.log(JsUser.email);
-// console.log(JsUser["email"]);
+// console.log(JsUser.email); 
+// console.log(JsUser["email"]); prefer this []
 // console.log(JsUser["full name"]);
 // console.log(JsUser[mySym]);
 
