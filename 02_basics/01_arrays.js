@@ -10,11 +10,13 @@ const myArr2 = new Array(1, 2, 3, 4)
 // Methods of Array
 
 // myArr.push(9)
-// myArr.push(7)
+// myArr.push(7) // push adds value at the last 
 // myArr.pop() // pop removes last value from array
 
-// myArr.unshift(9) // last value at first 
+// myArr.unshift(8) // adds value at first 
 // myArr.shift() // first value removes
+
+
 
 // console.log(myArr.includes(7));
 // console.log(myArr.indexOf(9));
@@ -27,14 +29,14 @@ const myArr2 = new Array(1, 2, 3, 4)
 //=================================
 // slice, splice
 
-console.log("A ", myArr);
+// console.log("A ", myArr);
 
-const myn1 = myArr.slice(1,4)
+// const myn1 = myArr.slice(1,4)
 
-console.log(myn1);
-console.log("B ", myArr);
+// console.log(myn1);
+// console.log("B ", myArr);
 
 
-const myn2 = myArr.splice(1,4)
-console.log("C ", myArr);
-console.log(myn2);
+// const myn2 = myArr.splice(1,4)
+// console.log("C ", myArr);
+// console.log(myn2);
