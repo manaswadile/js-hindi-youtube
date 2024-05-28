@@ -18,10 +18,11 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 
 
-// console.log(myArr.includes(7));
-// console.log(myArr.indexOf(9));
+// console.log(myArr.includes(7));  // it ans this que as  T/F
+// console.log(myArr.indexOf(9));  // if the value is not present in array then expected result is -1
 
-// const newArr = myArr.join()
+
+// const newArr = myArr.join()  // all elements of array change into string
 
 // console.log(myArr);
 // console.log(newArr);
@@ -29,14 +30,14 @@ const myArr2 = new Array(1, 2, 3, 4)
 //=================================
 // slice, splice
 
-// console.log("A ", myArr);
+console.log("A ", myArr);
 
-// const myn1 = myArr.slice(1,4)
+const myn1 = myArr.slice(1,4)  // it doesn't includes end value from given limit
 
-// console.log(myn1);
-// console.log("B ", myArr);
+console.log("B ", myArr);
+console.log(myn1);
 
+const myn2 = myArr.splice(1,4) // it removes the values of that given limit from the array and returns the remaining value
 
-// const myn2 = myArr.splice(1,4)
-// console.log("C ", myArr);
-// console.log(myn2);
+console.log("C ", myArr);
+console.log(myn2);
