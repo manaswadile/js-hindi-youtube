@@ -55,7 +55,8 @@ users[1].email
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn')); 
 
-//=================================//
+//===================================================================//
+
 // destructoring
 
 const course = { 

@@ -15,7 +15,7 @@
 function addTwoNumbers(number1, number2){
 
     // let result = number1 + number2
-    // return result
+    // return result // their will be no change after using (return)
     return number1 + number2
 }
 
