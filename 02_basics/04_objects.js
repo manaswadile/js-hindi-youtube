@@ -1,4 +1,4 @@
-const tinderUser = new Object() // singleton object
+// const tinderUser =  Object() // singleton object
 const tinderUser = {} // Non singleton object
 
 tinderUser.id = "123abc"
