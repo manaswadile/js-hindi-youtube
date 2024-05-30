@@ -1,3 +1,7 @@
+// the values in the (block) scope should not appears outside (global scope)
+// but the values of global scope can present in block scope
+
+
 let a = 300
 
 if (true) {
