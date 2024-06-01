@@ -60,6 +60,7 @@ const loggedInFromEmail = true
 if (userLoggedIn && debitCard && 2==3) {
     // console.log("Allow to buy courses");
 }
+// if one of the is false then it will not run
 
 if (loggedInFromGoogle || loggedInFromEmail ){
     // console.log("User logged in");
