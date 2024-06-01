@@ -1,6 +1,6 @@
 // # if & else
 // # comparision => <, >, <=, >=, ==, !=, ===. !==
-// # (===) here num & typeof should be same
+// # (===) here value & typeof should be same
 
 
 // const isUserloggedIn = true
