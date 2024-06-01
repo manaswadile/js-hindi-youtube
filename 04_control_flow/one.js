@@ -29,9 +29,17 @@
 // const balance = 1000
 
 
+//======================================================================
+
+// if (balance > 500) console.log("test");
+// ## We can write code for single not for multiple ##
+
 // if (balance > 500) console.log("test"),console.log("test");
 // ## don't write like this code ## //
 
+// $$ But remember code readablility should be good $$ //
+
+//======================================================================
 
 // if(balance < 500){
 //     console.log("less than 500");
